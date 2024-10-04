@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Plus Jakarta Sans;
+}
+
+body {
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+
+.section_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_one h3 {
+    font-size: 17px;
+    color: hsl(224, 21%, 14%);
+}
+
+.section_one span {
+    background-color: hsl(219, 85%, 26%);
+    padding: 1px 8px 1px 8px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.section_one p {
+    color: hsl(219, 14%, 63%);
+    cursor: pointer;
+}
+
+.section_one p:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+.Mark_profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 20px;
+    background-color: hsl(211, 68%, 94%);
+    color: hsl(219, 14%, 63%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Mark_profile img{
+    max-width: 40px;
+}
+
+.Mark_profile span {
+    color: hsl(219, 12%, 42%);
+    font-weight: 600;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.Mark_profile span:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 900;
+}
+
+.Mark_profile .profile_name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+i{
+    border-radius: 50%;
+    color: red;
+    background-color: red;
+    font-size: 6px;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
+.Mark_profile em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+.Angela_profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 10px;
+    background-color: hsl(211, 68%, 94%);
+    color: hsl(219, 14%, 63%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Angela_profile img{
+    max-width: 40px;
+}
+
+.Angela_profile span {
+    color: hsl(219, 12%, 42%);
+}
+
+.Angela_profile .profile_name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.Angela_profile .profile_name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.Angela_profile em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+.Jacob_profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 10px;
+    background-color: hsl(211, 68%, 94%);
+    color: hsl(219, 14%, 63%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Jacob_profile img{
+    max-width: 40px;
+}
+
+.Jacob_profile span {
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Jacob_profile span:hover {
+    font-weight: 900;
+}
+
+.Jacob_profile .profile_name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.Jacob_profile .profile_name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.Jacob_profile em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+.Rizky_profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 20px;
+    padding: 15px;
+    color: hsl(219, 14%, 63%);;
+}
+
+.Rizky_profile .profile_name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    padding-right: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.Rizky_profile .profile_name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.Rizky_profile span {
+    color: hsl(219, 12%, 42%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Rizky_profile em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+.private {
+    width: 80%;
+    margin-left: 65px;
+    border: 1px solid hsl(224, 21%, 14%);
+    color: hsl(219, 14%, 63%);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.private:hover {
+    border: none;
+    background-color: hsl(205, 33%, 90%);
+}
+
+.Rizky_profile img {
+    max-width: 40px;
+}
+
+.Kimberly_profile {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    margin-top: 20px;
+    padding: 15px;
+    color: hsl(219, 14%, 63%);
+}
+
+.Kimberly_profile img {
+    max-width: 40px;
+}
+
+.picture {
+    cursor: pointer;
+}
+
+.Kimberly_profile .profile_name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.Kimberly_profile .profile_name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.Kimberly_profile em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+.Nathan_profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 20px;
+    padding: 15px;
+    color: hsl(219, 14%, 63%);
+}
+
+.Nathan_profile .profile_name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    padding-right: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.Nathan_profile .profile_name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.Nathan_profile span {
+    color: hsl(219, 12%, 42%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Nathan_profile em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+.Nathan_profile .private {
+    display: block;
+}
+
+.Nathan_profile img {
+    max-width: 40px;
+}
+
+.Anna_profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: hsl(219, 14%, 63%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Anna_profile img{
+    max-width: 40px;
+}
+
+.Anna_profile span {
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Anna_profile .profile_name {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    padding-right: 5px;
+    transition: 0.25s;
+}
+
+.Anna_profile .profile_name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.Anna_profile em {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(219, 14%, 63%);
+}
+
+@media screen and (min-width: 700px) { 
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto 40px auto;
+        background-color: hsl(210, 60%, 98%);
+    }
+
+    .container {
+        background-color: white;
+        width: 75%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-top: 10px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
