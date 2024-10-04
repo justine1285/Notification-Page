@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC/hub?share=true)
+- Live Site URL: [live site](https://justine1285.github.io/Notification-Page/)
 
 ## My process
 
